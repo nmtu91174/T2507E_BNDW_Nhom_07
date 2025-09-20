@@ -204,6 +204,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 50px auto;
+  background: url(../images/login/stylish-red.jpg) no-repeat center center/cover;
 }
 
 /* Wrapper: box login/register */
@@ -211,7 +212,7 @@ body {
   border: 1px solid #ddd;
   padding: 30px;
   border-radius: 5px;
-  background: #fafafa;
+  background: #fafafa92;
 }
 
 .wrapper h1 {
@@ -269,7 +270,7 @@ body {
   font-weight: bold;
 }
 .btn:hover {
-  background: #333;
+  background: #ff0000;
 }
 
 

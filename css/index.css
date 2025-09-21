@@ -94,8 +94,11 @@ body {
   padding: 8px 12px;
 }
 .nav-left a:hover {
-  background: #00a6ff;
-  border-radius: 4px;
+  display: inline-block;
+  color: #007BFF;
+  /* background: #00a6ff;
+  border-radius: 4px; */
+  transform: scale(1.2);
 }
 
 /* Sitemap bên phải */
@@ -169,8 +172,15 @@ body {
   grid-template-columns: repeat(3, 1fr); /* 3 cột */
   gap: 20px;
 }
+.has-sub a:hover {
+    /* display: inline-block; */
+    color: #007BFF;
+    transform: scale(1.2);
+}
+
 .has-sub:hover > .submenu {
   display: grid;
+  color: #007BFF;
 }
 .menu-wrapper {
   display: flex;
@@ -341,7 +351,7 @@ body {
 }
 
 .product-rating {
-    color: var(--warning-color);
+    color: #FFC107;
     margin-bottom: 10px;
 }
 

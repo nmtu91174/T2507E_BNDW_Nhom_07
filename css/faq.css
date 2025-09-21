@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-family: "Inter";
+  color: #222222;
+  background: #ffffff;
+  line-height: 1.7;
+}
+
+
+.container{
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+.breadcrumb{
+  background: #000000;
+  border-bottom: 1px solid #e9e9ec;
+}
+.breadcrumb .container{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font-size: .95rem;
+}
+.breadcrumb a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.breadcrumb a:hover{
+  text-decoration: underline;
+}
+
+
+.page-head{
+  padding: 28px 0 12px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.page-head h1{
+  margin: 0 0 8px 0;
+  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+.page-head p{
+  margin: 0 0 18px 0;
+  color: #666a70;
+}
+
+
+.faq-group{
+  padding: 28px 0;
+  border-bottom: 1px solid #f0f0f2;
+}
+.faq-group h2{
+  margin: 0 0 12px 0;
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+
+
+.faq-item{
+  background: #ffffff;
+  border: 1px solid #ececf0;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 10px 0;
+}
+.faq-item .q{
+  margin: 0 0 6px 0;
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+.faq-item .a{
+  margin: 0;
+  color: #4b4f55;
+}
+
+
+.faq-cta{
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  padding: 28px 0 40px 0;
+}
+.faq-cta h3{
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.faq-cta p{
+  margin: 0 0 8px 0;
+  color: #666a70;
+}
+.faq-cta .btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #111111;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.faq-cta .btn:hover{
+  filter: brightness(1.05);
+}
+.page-bg{
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}

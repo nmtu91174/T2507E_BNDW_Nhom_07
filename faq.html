@@ -9,24 +9,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
-<body>
-  <img src="images/faq.jpg" alt="" class="page-bg">
+<body class="has-bg">
+  
+  <img src="images/faq.jpg" alt="" class="page-bg" />
 
-  <div class="breadcrumb">
+  
+  <header class="site-brand">
+    <div class="container">
+      <a href="home.html" class="brand-link" aria-label="Nooni Home">
+        <img src="images/logo_nooni" alt="noon'i" class="brand-logo" />
+      </a>
+    </div>
+  </header>
+
+  
+  <nav class="breadcrumb">
     <div class="container">
       <a href="home.html">Home</a>
-      <a>/</a>
-      <a>FAQ</a>
+      <span class="sep">/</span>
+      <span>FAQ</span>
     </div>
-  </div>
+  </nav>
 
+  
   <main class="container">
     <header class="page-head">
       <h1>Frequently Asked Questions</h1>
       <p>Quick answers about shipping, returns, payments, and products.</p>
     </header>
 
-    
     <section class="faq-group">
       <h2>Shipping</h2>
 
@@ -46,7 +57,6 @@
       </article>
     </section>
 
-    
     <section class="faq-group">
       <h2>Returns</h2>
 
@@ -61,7 +71,6 @@
       </article>
     </section>
 
-    
     <section class="faq-group">
       <h2>Payments & Products</h2>
 
@@ -79,11 +88,8 @@
     <aside class="faq-cta">
       <h3>Still need help?</h3>
       <p>Contact our team during business hours for assistance.</p>
-      <a class="btn" >Contact us</a>
+      <a class="btn" href="contact.html">Contact us</a>
     </aside>
   </main>
-  
-  
-
 </body>
 </html>
